@@ -1,0 +1,6 @@
+/*add this annotation to web.xml file of tomcat . this annotation is important to give priviledge to tomcat to take access to json file which is required by sprites */
+ 
+ <mime-mapping>
+        <extension>json</extension>
+        <mime-type>application/json</mime-type>
+    </mime-mapping>
